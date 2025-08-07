@@ -26,7 +26,7 @@
     "@types/node": "24.1.0",
     "czg": "1.12.0",
     "oxlint": "1.10.0",
-    "pkgroll": "2.14.5",
+    "pkgroll": "2.15.1",
     "tsx": "4.20.3",
     "typescript": "5.8.3"
   }
