@@ -23,39 +23,6 @@
     },
     {
       "labels": [
-        "linting",
-        "dependencies"
-      ],
-      "groupName": "linting",
-      "matchPackageNames": [
-        "/^eslint/",
-        "/^prettier/",
-        "/^@typescript-eslint/"
-      ]
-    },
-    {
-      "labels": [
-        "astro",
-        "dependencies"
-      ],
-      "groupName": "astro",
-      "matchPackageNames": [
-        "/^astro/",
-        "/^@astrojs/"
-      ]
-    },
-    {
-      "labels": [
-        "babel",
-        "dependencies"
-      ],
-      "groupName": "babel",
-      "matchPackageNames": [
-        "/babel/"
-      ]
-    },
-    {
-      "labels": [
         "typescript",
         "dependencies"
       ],
@@ -67,61 +34,13 @@
     },
     {
       "labels": [
-        "conventional-commits",
+        "linting",
         "dependencies"
       ],
-      "groupName": "conventional-commits",
+      "groupName": "linting",
       "matchPackageNames": [
-        "/^commitizen/",
-        "/^cz-conventional-changelog/",
-        "/^standard-version/"
-      ]
-    },
-    {
-      "labels": [
-        "graphql",
-        "dependencies"
-      ],
-      "groupName": "graphql",
-      "matchPackageNames": [
-        "/^graphql/",
-        "/^graphiql/",
-        "/^apollo/"
-      ]
-    },
-    {
-      "matchPackageNames": [
-        "cssnano",
-        "sass",
-        "autoprefixer",
-        "tailwindcss",
-        "@catppuccin/tailwindcss"
-      ],
-      "labels": [
-        "css",
-        "dependencies"
-      ],
-      "groupName": "css"
-    },
-    {
-      "labels": [
-        "react",
-        "dependencies"
-      ],
-      "groupName": "react",
-      "matchPackageNames": [
-        "/^react/"
-      ]
-    },
-    {
-      "labels": [
-        "webpack",
-        "dependencies"
-      ],
-      "groupName": "webpack",
-      "matchPackageNames": [
-        "/^webpack/",
-        "/loader$/"
+        "/^oxlint/",
+        "/^oxfmt/"
       ]
     },
     {
@@ -131,29 +50,7 @@
       ],
       "groupName": "test",
       "matchPackageNames": [
-        "/^jest/",
-        "/jest$/"
-      ]
-    },
-    {
-      "labels": [
-        "svelte",
-        "dependencies"
-      ],
-      "groupName": "svelte",
-      "matchPackageNames": [
-        "/^svelte/",
-        "/^@svelte/"
-      ]
-    },
-    {
-      "labels": [
-        "nestjs",
-        "dependencies"
-      ],
-      "groupName": "nestjs",
-      "matchPackageNames": [
-        "/^@nestjs/"
+        "/^vitest/"
       ]
     }
   ]
