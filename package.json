@@ -23,7 +23,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.30.2+sha512.36cdc707e7b7940a988c9c1ecf88d084f8514b5c3f085f53a2e244c2921d3b2545bc20dd4ebe1fc245feec463bb298aecea7a63ed1f7680b877dc6379d8d0cb4",
   "devDependencies": {
-    "@types/node": "24.10.13",
+    "@types/node": "24.10.14",
     "czg": "1.12.0",
     "oxlint": "1.50.0",
     "pkgroll": "2.26.3",
