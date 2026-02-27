@@ -1,57 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
-  ],
-  "labels": [
-    "dependencies"
-  ],
-  "automergeStrategy": "rebase",
-  "packageRules": [
-    {
-      "matchDepTypes": [
-        "devDependencies"
-      ],
-      "automerge": true
-    },
-    {
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "automerge": true
-    },
-    {
-      "labels": [
-        "typescript",
-        "dependencies"
-      ],
-      "groupName": "typescript",
-      "matchPackageNames": [
-        "/^@types/",
-        "/^typescript/"
-      ]
-    },
-    {
-      "labels": [
-        "linting",
-        "dependencies"
-      ],
-      "groupName": "linting",
-      "matchPackageNames": [
-        "/^oxlint/",
-        "/^oxfmt/"
-      ]
-    },
-    {
-      "labels": [
-        "test",
-        "dependencies"
-      ],
-      "groupName": "test",
-      "matchPackageNames": [
-        "/^vitest/"
-      ]
-    }
+    "github>matt-riley/renovate-config",
+    "github>matt-riley/renovate-config:node",
+    "github>matt-riley/renovate-config:github-actions"
   ]
 }
