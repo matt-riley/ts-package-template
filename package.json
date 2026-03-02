@@ -32,7 +32,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.30.0",
   "devDependencies": {
-    "@types/node": "24.10.15",
+    "@types/node": "24.11.0",
     "oxfmt": "^0.35.0",
     "oxlint": "^1.0.0",
     "pkgroll": "2.27.0",
