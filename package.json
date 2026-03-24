@@ -36,7 +36,7 @@
     "oxfmt": "^0.41.0",
     "oxlint": "^1.0.0",
     "pkgroll": "2.27.0",
-    "typescript": "5.9.3",
+    "typescript": "6.0.2",
     "vitest": "^4.0.0"
   }
 }
