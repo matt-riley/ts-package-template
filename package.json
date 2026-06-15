@@ -35,7 +35,7 @@
     "@types/node": "24.12.0",
     "oxfmt": "^0.43.0",
     "oxlint": "^1.0.0",
-    "pkgroll": "2.27.0",
+    "pkgroll": "2.27.1",
     "typescript": "6.0.2",
     "vitest": "^4.0.0"
   }
