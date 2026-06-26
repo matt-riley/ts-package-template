@@ -7,9 +7,11 @@ on:
 
 jobs:
   ci:
-    uses: matt-riley/matt-riley-ci/.github/workflows/node-ci.yml@835c12d10fac013404b8fc0f6210fd5ccec2e332 # main
+    uses: matt-riley/matt-riley-ci/.github/workflows/node-ci.yml@v1
     with:
       package-manager: pnpm
+      run-fallow: false
+      run-knip: false
       run-lint: true
       run-test: true
       run-build: true
