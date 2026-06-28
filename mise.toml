@@ -6,6 +6,10 @@ pnpm = "latest"
 description = "Install dependencies"
 run = "pnpm install --frozen-lockfile"
 
+[tasks.lint]
+description = "Run linter"
+run = "pnpm lint"
+
 [tasks.test]
 description = "Run tests"
 run = "pnpm test"
