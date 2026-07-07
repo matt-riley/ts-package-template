@@ -33,7 +33,7 @@
   "packageManager": "pnpm@11.9.0",
   "devDependencies": {
     "@types/node": "24.13.2",
-    "oxfmt": "^0.56.0",
+    "oxfmt": "^0.57.0",
     "oxlint": "^1.0.0",
     "pkgroll": "2.27.1",
     "typescript": "6.0.3",
