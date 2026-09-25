@@ -30,7 +30,7 @@
     "url": "https://mattriley.me"
   },
   "license": "MIT",
-  "packageManager": "pnpm@11.27.0",
+  "packageManager": "pnpm@12.5.1",
   "devDependencies": {
     "@types/node": "24.13.5",
     "oxfmt": "^0.68.0",
