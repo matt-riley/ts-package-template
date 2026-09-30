@@ -33,10 +33,11 @@
   "packageManager": "pnpm@11.27.1",
   "devDependencies": {
     "@types/node": "24.13.6",
+    "@typescript/typescript6": "6.0.2",
     "oxfmt": "^0.70.0",
     "oxlint": "^1.0.0",
     "pkgroll": "2.28.1",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "vitest": "^4.0.0"
   }
 }
