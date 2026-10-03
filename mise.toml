@@ -1,19 +1,22 @@
 [tools]
 node = "24"
-pnpm = "latest"
+pnpm = "12.6.0"
 
 [tasks.install]
 description = "Install dependencies"
 run = "pnpm install --frozen-lockfile"
 
 [tasks.lint]
+depends = ["install"]
 description = "Run linter"
 run = "pnpm lint"
 
 [tasks.test]
+depends = ["install"]
 description = "Run tests"
 run = "pnpm test"
 
 [tasks.build]
+depends = ["install"]
 description = "Build"
 run = "pnpm run build"
