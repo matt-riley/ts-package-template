@@ -7,7 +7,12 @@ on:
 
 jobs:
   ci:
-    uses: matt-riley/matt-riley-ci/.github/workflows/ci.yml@bcaf4ae43edf7d26421741424b82c842c83e55ce
+    permissions:
+      contents: read
+    concurrency:
+      group: ${{ github.workflow }}:${{ github.ref }}:ci
+      cancel-in-progress: true
+    uses: matt-riley/matt-riley-ci/.github/workflows/ci.yml@cb986078a5bd4775e5fb05348f3618e41fedf4de # v4
     with:
       install: true
       lint: true
