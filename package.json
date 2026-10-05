@@ -32,7 +32,7 @@
   "license": "MIT",
   "packageManager": "pnpm@12.6.0",
   "devDependencies": {
-    "@types/node": "24.13.6",
+    "@types/node": "24.19.0",
     "@typescript/typescript6": "6.0.2",
     "oxfmt": "^0.70.0",
     "oxlint": "^1.0.0",
